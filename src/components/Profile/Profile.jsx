@@ -8,8 +8,8 @@ export const Profile = ({name, tag, location, image, stats}) => {
       src={image}
       alt="User avatar"
     />
-    <p>{name}</p>
-    <p>@{tag}</p>
+    <p  className="title">{name}</p>
+    <p >@{tag}</p>
     <p>{location}</p>
   </div>
 
