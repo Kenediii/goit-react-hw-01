@@ -1,4 +1,4 @@
-
+import './Profile.css'
 
 export const Profile = ({name, tag, location, image, stats}) => {
   return (
@@ -15,7 +15,7 @@ export const Profile = ({name, tag, location, image, stats}) => {
 
   <ul>
     <li>
-      <span>Followers</span>
+      <span style={{color: 'red'}}>Followers</span>
       <span>{stats.followers}</span>
     </li>
     <li>
