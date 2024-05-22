@@ -4,7 +4,7 @@ import css from './Profile.module.css'
 
 export const Profile = ({name, tag, location, image, stats}) => {
   return (
-    <div className={css.container}>
+
       <div className={css.wraper}> 
   <div className={css.wrap__wrap}>
     <img className={css.img_profile}
@@ -33,7 +33,7 @@ export const Profile = ({name, tag, location, image, stats}) => {
     </li>
   </ul>
   </div>
-</div>
+
   )
 }
 
