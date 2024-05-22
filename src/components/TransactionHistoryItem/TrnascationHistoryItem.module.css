@@ -1,0 +1,14 @@
+.td {
+    border: 2px solid #000000;
+    padding: 8px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .tr:nth-child(even) {
+    background-color: #706b6b;
+  }
+  
+  .tr:nth-child(odd) {
+    background-color: rgb(235, 231, 231);
+  }

@@ -1,0 +1,45 @@
+.container {
+    margin-top: 50px;
+    max-width: 768px;
+    padding: 0 32px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.list {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    padding: 0;
+    justify-content: center;
+}
+
+.img {
+    width: 120px;
+    height: 120px;
+}
+
+.list_style {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.text_first {
+    font-size: 23px;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+}
+
+.online {
+    margin: 0;
+    text-align: center;
+    color: green;
+}
+
+.offline {
+    margin: 0;
+    text-align: center;
+    color: red;
+}
